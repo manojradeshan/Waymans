@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Wayman</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="inc/img/home/favicon.png" type="image/x-icon">
@@ -45,16 +45,16 @@
 
         <!-- header start -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+                <div class="container">
                     <!-- <a class="navbar-brand" href="#"><img src="https://picsum.photos/300/100" alt="logo"></a> -->
                     <button onclick="toggleBtn()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars" onclick="changeIcon(this)"></span>
                     </button>
-                    <div class="collapse navbar-collapse float-lg-end float-md-none" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto d-flex justify-content-evenly px-4">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
@@ -78,10 +78,14 @@
                             </li>
                             <li class="nav-item d-flex">
                                 <a class="nav-link nav-social-icon" href="facbook.com">
-                                    <i class="fa-brands fa-facebook"></i>
+                                    <div class="icon-box">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
                                 </a>
                                 <a class="nav-link nav-social-icon" href="instagram.com">
-                                    <i class="fa-brands fa-square-instagram"></i>
+                                    <div class="icon-box">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
@@ -116,12 +120,14 @@
         </div>
         <div class="container-fluid copyright-wrapper text-center pt-3">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            Copyrights <span id="getYear"></span>
-                            xxxxxxxxxx | Website by
-                            <a target="_blank" title="Click to visit" href="https://yogeemedia.com/">
+                <div class="row position-relative">
+                    <div class="footer-logo">
+                        <img src="inc/img/logo.png" alt="footer logo">
+                    </div>
+                    <div class="col pt-5">
+                        <p class="pt-3" style="color: #fff; font-size: 12px; line-height: 15px;">
+                            &copy; Wayman's Ice Creams Ltd, Southend on sea, Essex <br>
+                            Website by <a target="_blank" title="Click to visit" href="https://yogeemedia.com/">
                                 yogeemedia.com
                             </a>
                         </p>

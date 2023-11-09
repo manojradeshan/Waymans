@@ -1,5 +1,6 @@
 :root {
   --gray: #3c3b3a;
+  --blue: #2077bc;
   --light-bg: #fcf7f6;
   --purple: #3b3a64;
   --orange: #f1642b;
@@ -44,11 +45,12 @@ body {
 }
 
 footer {
-  min-height: 100px;
+  min-height: 150px;
+  background: var(--blue);
 }
 
 .main-wrapper {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 150px);
 }
 
 a {
@@ -95,19 +97,34 @@ button:not(:disabled) {
 
 /* home page css start */
 /* navbar css start */
+.active {
+  color: var(--blue);
+}
+
 .navbar-nav {
+  max-width: 960px;
+  width: 100%;
+  height: 45px;
   background: #3c3b3a;
 }
 
 a.nav-link {
   color: #fff;
   text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 4px;
 }
 
 /* navbar css end */
-/* home page css end */
 
-/* home page css start */
+/* footer page css end */
+.footer-logo img {
+  height: 113px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+/* footer page css start */
 /* home page css end */
 
 /* responssive css start */

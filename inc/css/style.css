@@ -40,7 +40,6 @@ li {
 }
 
 body {
-  max-width: 1470px;
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -131,10 +130,27 @@ a.nav-link {
 
 /*Contact Page*/
 .post-content {
-  max-width: 705px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
+.container-fluid.contact-page {
+  margin: 80px 0px;
+}
+
+.contact-form {
+  padding: 25px;
+  background-color: #eef4fa;
+  border-radius: 20px !important;
+}
+
+.form-control{
+  border: none;
+}
+
+.form-group label{
+  font-weight: 600;
+}
 /* responssive css start */
 
 /* `xxl` extra-large devices (large desktops, less than 1400px) */

@@ -1,6 +1,7 @@
 :root {
   --gray: #3c3b3a;
   --blue: #2077bc;
+  --light-blue: #2177bc;
   --light-bg: #fcf7f6;
   --purple: #3b3a64;
   --orange: #f1642b;
@@ -14,6 +15,7 @@
   --border-left: 2px solid var(--purple);
   --border-right: 2px solid var(--purple);
   --border-bottom: 2px solid var(--purple);
+  --font-weight: 600;
 }
 
 html {
@@ -101,6 +103,14 @@ button:not(:disabled) {
   color: var(--blue);
 }
 
+.mainactive{
+  background-color: var(--light-blue);
+}
+
+.fn-wg{
+  font-weight: 600;
+}
+
 .navbar-nav {
   max-width: 960px;
   width: 100%;
@@ -160,6 +170,15 @@ a.nav-link {
   opacity: 0.5;
 }
 
+.left-side-contact h3 {
+  letter-spacing: 1.5px;
+}
+
+button.send-submit {
+  padding: 13px 70px !important;
+  letter-spacing: 1.5px;
+}
+
 /* responssive css start */
 
 /* `xxl` extra-large devices (large desktops, less than 1400px) */
@@ -176,10 +195,19 @@ a.nav-link {
 
 /* `md` medium  devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+
 }
 
 /* `sm` small devices (portrait phones, less than 576px) */
 @media (max-width: 578px) {
+  .right-side-contact {
+    margin-top: 60px;
+}
+
+.left-side-contact h3 {
+  max-width: 85%;
+  margin: 0 auto;
+}
 }
 
 /* `xs` extra-small devices (phones, less than 320px) */

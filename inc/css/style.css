@@ -7,6 +7,7 @@
   --purple: #3b3a64;
   --orange: #f1642b;
   --yellow: #eda444;
+  --green: #009640;
   --dark-purple: #33475b;
   --dark-blue: #09202c;
   --shadow: 0px 0px 20px 0px #aeaeae;
@@ -19,6 +20,7 @@
   --font-weight: 600;
   --font-size1: 30px;
   --font-size2: 18px;
+  --font-size3: 22px;
 }
 
 html {
@@ -85,6 +87,10 @@ button:not(:disabled) {
 
 .bg2 {
   background: #3b3a64;
+}
+
+.bg3{
+  background: var(--green);
 }
 
 .font1 {
@@ -213,6 +219,7 @@ p.icecream-description {
 /* footer page css start */
 /* home page css end */
 
+
 /*Contact Page*/
 .post-content {
   /* max-width: 960px; */
@@ -250,7 +257,7 @@ p.icecream-description {
 }
 
 button.send-submit {
-  padding: 10px 45px !important;
+  padding: 15px 80px !important;
   letter-spacing: 1.5px;
 }
 
@@ -260,6 +267,7 @@ button.send-submit {
   width: 300px;
   margin: 0 auto;
 }
+
 
 /* responssive css start */
 
@@ -276,7 +284,7 @@ button.send-submit {
   .left-side-faq h3 {
     width: 226px;
     font-size: 17px !important;
-  }
+}
 }
 
 /* `md` medium  devices (landscape phones, less than 768px) */
@@ -284,11 +292,20 @@ button.send-submit {
   .left-side-faq h3 {
     width: 226px;
     font-size: 17px !important;
-  }
+}
 }
 
 /* `sm` small devices (portrait phones, less than 576px) */
 @media (max-width: 578px) {
+
+.left-side {
+  width: 100%;
+}
+  
+.right-side {
+  width: 100%;
+}
+  
   .right-side-contact {
     margin-top: 60px;
   }
@@ -302,10 +319,10 @@ button.send-submit {
     text-align: center;
   }
 
-  .faq-section {
-    padding-top: 30px;
-    padding-right: 0px !important;
-  }
+.faq-section {
+  padding-top: 30px;
+  padding-right: 0px !important;
+}
 }
 
 /* `xs` extra-small devices (phones, less than 320px) */

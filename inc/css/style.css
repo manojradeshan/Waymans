@@ -97,6 +97,11 @@ button:not(:disabled) {
 
 /* home page css start */
 /* navbar css start */
+header {
+  position: relative;
+  z-index: 99;
+}
+
 .active {
   color: var(--blue);
 }
@@ -116,7 +121,32 @@ a.nav-link {
   margin-top: 4px;
 }
 
+a.nav-link img {
+  width: 25px;
+  height: auto;
+}
+
 /* navbar css end */
+
+/* slider css start */
+.slider-box {
+  position: relative;
+  padding: 0;
+  margin-top: -45px;
+}
+
+.slider-deco {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+
+
+.carousel-item {
+  max-height: 740px;
+}
+/* slider css end */
 
 /* footer page css end */
 .footer-logo img {

@@ -16,6 +16,8 @@
   --border-right: 2px solid var(--purple);
   --border-bottom: 2px solid var(--purple);
   --font-weight: 600;
+  --font-size1: 30px;
+  --font-size2: 18px;
 }
 
 html {
@@ -90,6 +92,18 @@ button:not(:disabled) {
 
 .font2 {
   font-family: "Gentium Plus", serif;
+}
+
+.fs1{
+  font-size: var(--font-size1);
+}
+
+.fs2{
+  font-size: var(--font-size2);
+}
+
+.fs3{
+  font-size: var(--font-size3);
 }
 
 /* Show dropdown menu on hover */

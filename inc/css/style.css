@@ -6,6 +6,7 @@
   --purple: #3b3a64;
   --orange: #f1642b;
   --yellow: #eda444;
+  --green: #009640;
   --dark-purple: #33475b;
   --dark-blue: #09202c;
   --shadow: 0px 0px 20px 0px #aeaeae;
@@ -18,6 +19,7 @@
   --font-weight: 600;
   --font-size1: 30px;
   --font-size2: 18px;
+  --font-size3: 22px;
 }
 
 html {
@@ -84,6 +86,10 @@ button:not(:disabled) {
 
 .bg2 {
   background: #3b3a64;
+}
+
+.bg3{
+  background: var(--green);
 }
 
 .font1 {
@@ -181,6 +187,18 @@ a.nav-link img {
 /* footer page css start */
 /* home page css end */
 
+.left-side {
+  width: 40%;
+}
+
+.right-side {
+  width: 60%;
+}
+
+.left-side h3 {
+  letter-spacing: 1.5px;
+  line-height: 1.6 !important;
+}
 
 /*Contact Page*/
 .post-content {
@@ -219,7 +237,7 @@ a.nav-link img {
 }
 
 button.send-submit {
-  padding: 10px 45px !important;
+  padding: 15px 80px !important;
   letter-spacing: 1.5px;
 }
 
@@ -230,6 +248,33 @@ button.send-submit {
   margin: 0 auto;
 }
 
+button.contact-submit.send-submit {
+  padding: 15px 40px !important;
+}
+
+/*Garden Page*/
+.left-side-garden img {
+  width: 285px !important;
+}
+
+button.send-submit-garden {
+  padding: 16px 34px !important;
+  font-size: 18px !important;
+  letter-spacing: 1.5px;
+}
+
+.above-image img {
+  width: 420px;
+}
+
+.below-image img {
+  width: 270px;
+}
+
+.below-image {
+  top: 320px;
+  left: 240px;
+}
 
 /* responssive css start */
 
@@ -247,6 +292,16 @@ button.send-submit {
     width: 226px;
     font-size: 17px !important;
 }
+
+.above-image {
+  left: 10px !important;
+  position: absolute;
+}
+
+.below-image {
+  top: 341px;
+  left: 187px;
+}
 }
 
 /* `md` medium  devices (landscape phones, less than 768px) */
@@ -255,10 +310,40 @@ button.send-submit {
     width: 226px;
     font-size: 17px !important;
 }
+
+.above-image img {
+  width: 370px;
+}
+
+.below-image img {
+  width: 230px;
+}
+
+.below-image {
+  left: 200px;
+  top: 286px;
+}
+
+.below-image {
+  top: 286px;
+}
+
+.right-side-garder {
+  padding-left: 20px !important;
+}
 }
 
 /* `sm` small devices (portrait phones, less than 576px) */
 @media (max-width: 578px) {
+
+.left-side {
+  width: 100%;
+}
+  
+.right-side {
+  width: 100%;
+}
+  
   .right-side-contact {
     margin-top: 60px;
 }
@@ -275,6 +360,28 @@ button.send-submit {
 .faq-section {
   padding-top: 30px;
   padding-right: 0px !important;
+}
+
+.right-side-garder {
+  padding-left: 0px !important;
+}
+
+.above-image img {
+  width: 290px;
+}
+
+.below-image {
+  top: 225px;
+  left: 150px;
+}
+
+.below-image img {
+  width: 200px;
+}
+
+.right-side {
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 }
 

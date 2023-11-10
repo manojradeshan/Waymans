@@ -1,6 +1,7 @@
 :root {
   --gray: #3c3b3a;
   --blue: #2077bc;
+  --light-blue: #2177bc;
   --light-bg: #fcf7f6;
   --purple: #3b3a64;
   --orange: #f1642b;
@@ -14,6 +15,7 @@
   --border-left: 2px solid var(--purple);
   --border-right: 2px solid var(--purple);
   --border-bottom: 2px solid var(--purple);
+  --font-weight: 600;
 }
 
 html {
@@ -106,6 +108,14 @@ header {
   color: var(--blue);
 }
 
+.mainactive{
+  background-color: var(--light-blue);
+}
+
+.fn-wg{
+  font-weight: 600;
+}
+
 .navbar-nav {
   max-width: 960px;
   width: 100%;
@@ -183,12 +193,29 @@ a.nav-link img {
 }
 
 .contact-line {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   border-bottom: 0.5px solid #0e71b8;
   padding-top: 10px;
   opacity: 0.5;
 }
+
+.left-side-contact h3 {
+  letter-spacing: 1.5px;
+}
+
+button.send-submit {
+  padding: 10px 45px !important;
+  letter-spacing: 1.5px;
+}
+
+/*FAQ Page*/
+.left-side-faq h3 {
+  letter-spacing: 1.5px;
+  width: 300px;
+  margin: 0 auto;
+}
+
 
 /* responssive css start */
 
@@ -202,14 +229,39 @@ a.nav-link img {
 
 /* `lg` large devices (tablets, less than 992px) */
 @media (max-width: 992px) {
+  .left-side-faq h3 {
+    width: 226px;
+    font-size: 17px !important;
+}
 }
 
 /* `md` medium  devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+  .left-side-faq h3 {
+    width: 226px;
+    font-size: 17px !important;
+}
 }
 
 /* `sm` small devices (portrait phones, less than 576px) */
 @media (max-width: 578px) {
+  .right-side-contact {
+    margin-top: 60px;
+}
+
+.left-side-contact h3 {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.right-side-faq {
+  text-align: center;
+}
+
+.faq-section {
+  padding-top: 30px;
+  padding-right: 0px !important;
+}
 }
 
 /* `xs` extra-small devices (phones, less than 320px) */

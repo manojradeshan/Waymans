@@ -163,7 +163,7 @@ a.nav-link {
 }
 
 .contact-line {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   border-bottom: 0.5px solid #0e71b8;
   padding-top: 10px;
@@ -175,9 +175,17 @@ a.nav-link {
 }
 
 button.send-submit {
-  padding: 13px 70px !important;
+  padding: 10px 45px !important;
   letter-spacing: 1.5px;
 }
+
+/*FAQ Page*/
+.left-side-faq h3 {
+  letter-spacing: 1.5px;
+  width: 300px;
+  margin: 0 auto;
+}
+
 
 /* responssive css start */
 
@@ -191,11 +199,18 @@ button.send-submit {
 
 /* `lg` large devices (tablets, less than 992px) */
 @media (max-width: 992px) {
+  .left-side-faq h3 {
+    width: 226px;
+    font-size: 17px !important;
+}
 }
 
 /* `md` medium  devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
-
+  .left-side-faq h3 {
+    width: 226px;
+    font-size: 17px !important;
+}
 }
 
 /* `sm` small devices (portrait phones, less than 576px) */
@@ -207,6 +222,15 @@ button.send-submit {
 .left-side-contact h3 {
   max-width: 85%;
   margin: 0 auto;
+}
+
+.right-side-faq {
+  text-align: center;
+}
+
+.faq-section {
+  padding-top: 30px;
+  padding-right: 0px !important;
 }
 }
 

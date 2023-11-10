@@ -77,15 +77,11 @@
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                             <li class="nav-item d-flex">
-                                <a class="nav-link nav-social-icon" href="facbook.com">
-                                    <div class="icon-box">
-                                        <i class="fa-brands fa-facebook-f"></i>
-                                    </div>
+                                <a class="nav-link nav-social-icon mt-0" href="facbook.com">
+                                    <img src="inc/img/icon-fb.png" alt="facbook">
                                 </a>
-                                <a class="nav-link nav-social-icon" href="instagram.com">
-                                    <div class="icon-box">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </div>
+                                <a class="nav-link nav-social-icon mt-0" href="instagram.com">
+                                    <img src="inc/img/icon-insta.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>
@@ -100,9 +96,44 @@
         <!-- header end -->
 
         <!-- post content start -->
-        <div class="post-content">
-            <div class="container-fluid contact-page">
-                
+        <div class="post-content" style="max-width: 100%">
+            <div class="container-fluid slider-box">
+                <div class="slider-deco position-absolute z-1">
+                    <div class="flag-img d-flex justify-content-between">
+                        <div class="left-flag"><img src="inc/img/flag-left.png" alt="left-flag"></div>
+                        <div class="right-flag"><img src="inc/img/flag-right.png" alt="right-flag"></div>
+                    </div>
+                    <div class="slider-logo">
+                        <img src="inc/img/logo3.png" alt="logo" class="m-auto d-block">
+                    </div>
+                </div>
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="inc/img/slider1.png" class="d-block w-100" alt="slider 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="inc/img/slider2.png" class="d-block w-100" alt="slider 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="inc/img/slider3.png" class="d-block w-100" alt="slider 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="inc/img/slider4.png" class="d-block w-100" alt="slider 4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
             </div>
         </div>
         <!-- post content end -->
@@ -129,7 +160,7 @@
                     <div class="col pt-5">
                         <p class="pt-3" style="color: #fff; font-size: 12px; line-height: 15px;">
                             &copy; Wayman's Ice Creams Ltd, Southend on sea, Essex <br>
-                            Website by <a target="_blank" title="Click to visit" href="#">
+                            Website by <a target="_blank" title="Click to visit" href="#" style="color: #fff;">
                                 designfolk
                             </a>
                         </p>

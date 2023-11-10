@@ -152,6 +152,14 @@ a.nav-link {
   font-weight: 600;
 }
 
+.contact-line {
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 0.5px solid #0e71b8;
+  padding-top: 10px;
+  opacity: 0.5;
+}
+
 /* responssive css start */
 
 /* `xxl` extra-large devices (large desktops, less than 1400px) */
